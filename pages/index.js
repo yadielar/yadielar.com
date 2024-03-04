@@ -17,7 +17,7 @@ export default function Home() {
       </header>
 
       <main>
-        <article className="max-w-3xl mx-auto mt-6 prose lg:prose-lg py-12">
+        <article className="prose lg:prose-lg dark:prose-invert mx-auto mt-6 py-12">
           <Resume />
         </article>
       </main>
@@ -31,7 +31,7 @@ export default function Home() {
         >
           Twitter
         </a>
-        <span className="text-black text-opacity-25 mx-4">|</span>
+        <span className="text-black/25 mx-4">|</span>
         <a
           className="flex items-center justify-center text-gray-500 hover:text-blue-600"
           href="https://github.com/yadielar"
