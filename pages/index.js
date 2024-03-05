@@ -6,7 +6,6 @@ export default function Home() {
     <div className="px-5 print:px-0">
       <Head>
         <title>Yadiel Arroyo - Front-End Developer</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header className="flex flex-col items-center justify-center text-center mt-16 print:mt-0">
