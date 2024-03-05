@@ -4,7 +4,7 @@ export function Header() {
       <h1 className="text-4xl lg:text-6xl text-indigo-700 dark:text-indigo-300 font-bold">
         Yadiel Arroyo
       </h1>
-      <p className="text-xl lg:text-3xl mt-4">Front-End Developer</p>
+      <p className="text-xl lg:text-3xl mt-4">Frontend Engineer</p>
     </header>
   );
 }

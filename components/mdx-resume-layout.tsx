@@ -20,7 +20,7 @@ export function MdxResumeLayout({
       <Header />
 
       <main>
-        <article className="prose prose-li:my-1 dark:prose-invert print:max-w-none mx-auto mt-6 py-12">
+        <article className="prose hover:prose-a:text-indigo-700 dark:hover:prose-a:text-indigo-300 dark:prose-invert print:max-w-none mx-auto mt-6 py-12">
           {children}
         </article>
       </main>
