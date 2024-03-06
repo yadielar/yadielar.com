@@ -1,3 +1,4 @@
+import { clsx } from 'clsx';
 import Head from 'next/head';
 import { Header } from './header';
 import { Footer } from './footer';
@@ -20,7 +21,14 @@ export function MdxResumeLayout({
       <Header />
 
       <main>
-        <article className="prose hover:prose-a:text-indigo-700 dark:hover:prose-a:text-indigo-300 dark:prose-invert print:max-w-none mx-auto mt-6 py-12">
+        <article
+          className={clsx(
+            'prose hover:prose-a:text-indigo-700 dark:hover:prose-a:text-indigo-300 dark:prose-invert',
+            'mx-auto mt-6 py-12',
+            'print:max-w-none print:mx-0 print:py-0',
+            'print:prose-sm print:prose-li:my-1 print:prose-p:mb-2'
+          )}
+        >
           {children}
         </article>
       </main>
