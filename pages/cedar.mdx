@@ -1,0 +1,70 @@
+import { MdxResumeLayout } from '@/components/mdx-resume-layout';
+import { CountYears } from '@/components/count-years';
+import { Callout } from '@/components/callout';
+
+Hello Cedarians, I'm a developer with <CountYears from={2009} />+ years of experience building for the web. I care a lot about building a great product that users love. My strongest skills are with React and TypeScript, but I also have a strong background in design and UX. I've been leading frontend teams for many years, offering guidance and mentorship to junior developers. I'm also always looking for new patterns, technologies, and people to learn from and improve my work. On every team I work on, I strive to be a positive influence, deliver an excellent user experience, and help the team build a maintainable architecture. With my experience and skills, I'm confident I can help you build a great product. 🚀
+
+<Callout image="https://www.cedar.com/wp-content/themes/cedar/assets/favicons/apple-touch-icon.png">
+  I'm really interested by the work Cedar is doing to improve the healthcare
+  experience for patients and providers. I believe that technology can help us
+  solve many of the problems in healthcare, and I'm excited to see a company
+  like Cedar leading the way. I would love to learn more about how the Cedar
+  team builds products that make a real difference in people's lives.
+</Callout>
+
+## Skills
+
+I can...
+
+- Build complex and performant React applications.
+- Understand advanced JavaScript and TypeScript concepts.
+- Create design systems that are responsive, accessible, and easy to use.
+- Integrate client state with server APIs while keeping a snappy UX.
+- Lead projects or features with a focus on product and user experience.
+- Work with remote teams using Git and agile software management tools.
+- Speak and write in English and Spanish.
+
+## Experience
+
+**Lead Frontend Engineer at <a href="https://gainapp.com/" className="no-underline " target="_blank" rel="noopener noreferrer">GainApp.com</a>**<br />
+_Remote, 2017 - Present_
+
+As part of the product leadership, I direct a team of frontend engineers to deliver a feature-rich product for marketing agencies. Catering to a fast-changing social media landscape, I work with my team to build new features efficiently while keeping
+the app performant and maintainable. Some product achievements I'm proud to have led include:
+
+- Launching complex features such as custom approval workflows, real-time collaboration, and image annotations, among others.
+- Designing the architecture for a complex editor UI that can support multiple social media platforms.
+- Building design systems for two of our products, improving UX consistency and developer efficiency.
+- Migrating the app from AngularJS to React with TypeScript while continuing to deliver new features and fixes.
+
+**Volunteer Frontend Engineer at JW.org**<br />
+_Remote, 2021 - Present_
+
+I volunteer my free time developing various web applications for the Jehovah's Witnesses worlwide organization under JW.org. I've had the privilege to work alongside very experienced engineers building apps related to video streaming, learning valuable skills across various programming disciplines, software architecture, and deployment.
+
+**Full-Stack Engineer at Arterra Mobility**<br />
+_Remote/Virginia, 2015 - 2017_
+
+Worked as a full-stack engineer and frontend consultant, involved with the integration of Arterra's MVNO platform with big telco companies entering the mobile market. Participated in API design and development, and led the creation of a functional testing suite for key platform interfaces. As the company's main frontend liaison, I collaborated with Comcast and Charter engineers to provide them with full-featured storefront prototypes of Xfinity and Spectrum's new mobile offerings.
+
+**Frontend Developer at Funnke / Wireless Idea Corp**<br />
+_San Juan, 2014 - 2015_
+
+Worked as a frontend developer, helping build advertising products for app & game developers. Developed the company's main product, a hybrid mobile app, using AngularJS and Ionic. Also developed internal tools for ad-ops and customer service using AngularJS, Node, Express & MongoDB, connecting various web services and aggregating and normalizing their data.
+
+**Web Developer & Designer at various marketing agencies**<br />
+_San Juan, 2009 - 2014_
+
+My formative years as a professional involved working as a designer and web developer for a few marketing agencies in Puerto Rico. Starting as a web designer, I quickly embraced web development and took ownership of many frontend projects. My responsibilities included the typical tasks of a web developer in the 2010s: slicing PSDs, wrangling PHP, developing WordPress themes, Flash banners, email templates with tables... you get the idea. 😅
+
+## Education
+
+UAGM, Gurabo PR — BA in Design, 2009
+
+export default function MDXPage({ children }) {
+  return (
+    <MdxResumeLayout documentTitle="Yadiel Arroyo - Front-End Developer">
+      {children}
+    </MdxResumeLayout>
+  );
+}
